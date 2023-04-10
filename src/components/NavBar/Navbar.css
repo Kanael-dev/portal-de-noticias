@@ -1,0 +1,36 @@
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+header img{
+    width: 70px;
+    height: auto;
+}
+ul{
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+li{
+    list-style: none;
+    padding: 10px;
+    font-size: 20px;
+    color: #EEEEEE;
+}
+select{
+    border: 2px solid grey;
+    height: 50px;
+    background: RGBA(0,0,0,0);
+    color: #fff;
+}
+
+a{
+    text-decoration: none;
+    color: #EEEEEE;
+}
+a:hover{
+    color: #4FB0E7;
+}

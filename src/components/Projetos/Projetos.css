@@ -1,0 +1,14 @@
+#projetos{
+    height: 60vh;
+    width: 100%;
+}
+.card-projetos-pai{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+.text-projetos{
+    font-size: 45px;
+}

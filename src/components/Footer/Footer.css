@@ -1,0 +1,8 @@
+.footer{
+    height: 9vh;
+    background: #170A3A;
+    color: #fff;
+    font-weight: bolder;
+    display: grid;
+    place-items: center;
+}

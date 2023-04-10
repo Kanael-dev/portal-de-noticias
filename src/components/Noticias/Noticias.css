@@ -1,0 +1,13 @@
+#noticias{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 85vh;
+    width: 100%;
+}
+.text-noticia{
+    position: relative;
+    font-size: 45px;
+    left: 0%;
+}

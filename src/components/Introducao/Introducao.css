@@ -1,0 +1,67 @@
+#home{
+    height: 55vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.introducao-text{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: start;
+    flex-direction: column;
+}
+.banner{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner img{
+    position: relative;
+    animation: up-down 3s infinite;
+}
+@keyframes up-down {
+    0%{
+        top: 10px;
+    }
+    50%{
+        top: 0;
+    }
+    100%{
+        top: 10px;
+    }
+}
+h1{
+    position: relative;
+    font-size: 100px;
+    width: 70%;
+    left: 15%;
+    background: linear-gradient(100.68deg, #6D0BD4 -2.08%, #2C30D4 26.53%, #146BC3 54.64%, #039CB4 93.78%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+.btn-introducao{  
+    display: grid;
+    place-items: center;
+    border: 2px solid #33A2CD;
+    font-weight: bolder;
+    background-clip: text; -webkit-background-clip: text; color: transparent; background-image: linear-gradient(90deg, #3030EB, #7928BF, #D21F89);
+    position: relative;
+    left: 15%;
+    font-size: 20px;
+    margin-top: -5%;
+    width: 20%;
+    padding: 15px;
+    border-radius: 86px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
